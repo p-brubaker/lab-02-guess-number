@@ -12,10 +12,22 @@ let result = document.getElementById('result');
 function guessNumber() {
     let guessesRemaining = 7;
     const numberToGuess = Math.ceil(Math.random()*100);
-    
+
+    // set up event listeners: theres only one, user clicks submit button
+    submitGuess.addEventListener('click', () => {
+        // compare guess to actual number with compare numbers func
+        // guess correct?
+            // display message to user
+            // exit guessing subroutine
+        // guess too high?
+            // display message to user
+        // guess to low?
+            // display message to user
+        // decrement guesses remaining
+        // guesses remaining === 0?
+            // display losing message with encouragement to try again
+            // exit guessing subroutine
+        // update guesses remaining display
+    })    
 }
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
