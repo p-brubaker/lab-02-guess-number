@@ -3,7 +3,7 @@ export function compareNumbers(actual, guess) {
         return -1;
     } else if (guess > actual) {
         return 1;
-    } else if (guess === actual) {
-        return 0;
+    } else if (parseInt(guess) === actual) {
+        return 'correct';
     }
 }

@@ -16,7 +16,7 @@ test('Tell if a number is too low', (expect) => {
 });
 
 test('Tell if a number is equal', (expect) => {
-    const expected = 0;
+    const expected = 'correct';
     const actual = compareNumbers(50, 50);
     expect.equal(actual, expected);
 })
