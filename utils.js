@@ -7,3 +7,7 @@ export function compareNumbers(actual, guess) {
         return 'correct';
     }
 }
+
+export function validateInput(input) {
+    return (typeof input === 'number');
+}

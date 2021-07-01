@@ -19,4 +19,6 @@ test('Tell if a number is equal', (expect) => {
     const expected = 'correct';
     const actual = compareNumbers(50, 50);
     expect.equal(actual, expected);
-})
+});
+
+
